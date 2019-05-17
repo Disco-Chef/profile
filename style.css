@@ -5,7 +5,7 @@
   text-align: center;
   margin: 20px auto;
   box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3);
-  width: 70%;
+  width: 60%;
 }
 .all-other-cards{
   background-color: white;
@@ -14,7 +14,7 @@
   text-align: center;
   margin: 10px auto;
   box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2);
-  width: 70%;
+  width: 60%;
   height: 70%;
 }
 h1{
@@ -28,7 +28,8 @@ h2,h3,h4,h5{
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   color: rgb(60,130,200);
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
   margin: 0px auto;
   text-align: center;
 }
@@ -37,8 +38,8 @@ p{
   font-size: 17px;
   text-align: center;
   color: rgba(15,15,15,0.85);
-  padding: 15px;
-  margin: 5px auto;
+  padding: 5px;
+  margin: 10px auto;
 }
 .avatar-rounded{
   height: 100px;
@@ -52,10 +53,10 @@ p{
 }
 #btn-red{
   background-color: red;
-  padding: 10px 15px;
+  padding: 15px 20px;
   border-radius: 5px;
   color: white;
-  margin: 20px auto;
+  margin: 15px auto;
   text-decoration: none;
 }
 #btn-red:hover{
@@ -82,4 +83,8 @@ p{
 .fa-github-square:hover{
   font-size: 50px;
   color: black;
+  text-decoration: none;
+}
+body {
+  background-color: #eae3e4;
 }
